@@ -53,6 +53,7 @@ var wstream=
 			},
 			str:function(string)
 			{
+				this.data=[];
 				var i,word={start:0,end:0};
 				string+=" ";
 				for(i=0;i<string.length;i++)
